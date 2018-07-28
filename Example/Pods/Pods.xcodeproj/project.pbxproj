@@ -14,6 +14,8 @@
 		42FF93CD42738755D3DCF029DD53BEF6 /* Pods-SelectCountry_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8C1FFDCE0922FEA2B6C43C62F03044 /* Pods-SelectCountry_Tests-dummy.m */; };
 		441ACD2D210C935300FF759E /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441ACD2C210C935300FF759E /* Helper.swift */; };
 		441ACD2F210C94D900FF759E /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441ACD2C210C935300FF759E /* Helper.swift */; };
+		441ACD55210C9E4100FF759E /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 441ACD54210C9E4100FF759E /* .gitkeep */; };
+		441ACD57210C9EBA00FF759E /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 441ACD56210C9EBA00FF759E /* 1.png */; };
 		44CBD02DB50FD0D0416CB0EFCAA61F03 /* SelectCountry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C838721169A44241C33430A1499D992 /* SelectCountry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		80BC9D308A9F919A2CD3209CD49CD7F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		AFB5BD795AD0F72557D751CFA34332D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
@@ -54,6 +56,8 @@
 		2E52E3EC5673B3E42EB555D56D24B194 /* Pods-SelectCountry_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SelectCountry_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		441ACD29210C92FA00FF759E /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		441ACD2C210C935300FF759E /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		441ACD54210C9E4100FF759E /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		441ACD56210C9EBA00FF759E /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		44ABCCA240BA77A51D2591F52366DDF3 /* Pods_SelectCountry_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SelectCountry_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C95E573E98CD8FB12868D44D2B6950 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CBDE711DBC399AB9AE0047CA52C364A /* SelectCountry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SelectCountry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -167,6 +171,16 @@
 			path = SelectCountry/Classes;
 			sourceTree = "<group>";
 		};
+		441ACD53210C9E4100FF759E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				441ACD56210C9EBA00FF759E /* 1.png */,
+				441ACD54210C9E4100FF759E /* .gitkeep */,
+			);
+			name = Assets;
+			path = SelectCountry/Assets;
+			sourceTree = "<group>";
+		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,6 +203,7 @@
 		833891E5B5C60BA1B2F6F61301231755 /* SelectCountry */ = {
 			isa = PBXGroup;
 			children = (
+				441ACD53210C9E4100FF759E /* Assets */,
 				441ACD28210C92FA00FF759E /* Classes */,
 				2F2440D24642A9EA78124B6D611E4F78 /* Pod */,
 				FA59C63C998B130BCED70CB7D0F532EC /* Support Files */,
@@ -394,7 +409,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				441ACD57210C9EBA00FF759E /* 1.png in Resources */,
 				0F67E96090A3FF5844111C716A842D42 /* SelectCountry.bundle in Resources */,
+				441ACD55210C9E4100FF759E /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
