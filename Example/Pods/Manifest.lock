@@ -1,0 +1,16 @@
+PODS:
+  - SelectCountry (0.1.0)
+
+DEPENDENCIES:
+  - SelectCountry (from `../`)
+
+EXTERNAL SOURCES:
+  SelectCountry:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SelectCountry: 8b1b641818a58aa7e2c687d655f6320a97d1c7f4
+
+PODFILE CHECKSUM: a77730eec57d60ba9d4b74db3096947e91d2ad63
+
+COCOAPODS: 1.5.3

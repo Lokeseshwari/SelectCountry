@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import SelectCountry
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let tests = Helper()
+        tests.added()
         // Do any additional setup after loading the view, typically from a nib.
     }
 

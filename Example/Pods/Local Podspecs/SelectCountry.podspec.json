@@ -1,0 +1,26 @@
+{
+  "name": "SelectCountry",
+  "version": "0.1.0",
+  "summary": "This is my first app",
+  "homepage": "https://github.com/Lokeseshwari/SelectCountry",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "iOS Developer": "Lokeshkamalapuram@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Lokeseshwari/SelectCountry.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SelectCountry/Classes/**/*",
+  "resource_bundles": {
+    "SelectCountry": [
+      "SelectCountry/Assets/*.png"
+    ]
+  }
+}
